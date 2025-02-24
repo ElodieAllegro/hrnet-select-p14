@@ -38,7 +38,6 @@ const handleStateSelect = (state) => {
     onChange={handleStateSelect}
     defaultValue={selectedState}
     placeholder="Select states"
-    required
 />
 
   
@@ -52,7 +51,6 @@ const handleStateSelect = (state) => {
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
 | placeholder | String |  | Placeholder du Select |
-| options | String | - | Liste des options du Select. Doit être un tableau d'objets de la forme `{id: '', name: ''}`  |
+| options | Array| - | Liste des options du Select. Doit être un tableau d'objets de la forme `{id: '', value: ''}`  |
 | onChange | (value: String) => void | - | La fonction qui est levée au changement d'option et qui remonte l'id de la valeur sélectionnée |
 |defaultValue | String | - | Valeur par défaut du Select |
-| required | boolean |  true | Indique si la sélection est requise |
