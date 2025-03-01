@@ -1,13 +1,15 @@
 .custom-select {
-    position: relative;
-    width: 200px;
-    font-family: Arial, sans-serif;
-    cursor: pointer;
+  position: relative;
+  width: 260px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 10px 0 0;
   }
   
   .select-selected {
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 4px;
     position: relative;
