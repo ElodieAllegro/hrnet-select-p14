@@ -1,7 +1,19 @@
 {
   "name": "hrnet-select-p14",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
+  "description": "Composant React de sélection pour HRnet, conversion d'un plugin jQuery.",
+  "keywords": ["react", "select", "HRnet", "component", "dropdown"],
+  "author": "Ton Nom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElodieAllegro/hrnet-select-p14"
+  },
+  "homepage": "https://github.com/ElodieAllegro/hrnet-select-p14/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/ElodieAllegro/hrnet-select-p14/issues"
+  },
   "files": [
     "dist"
   ],
@@ -39,3 +51,4 @@
     "vite-plugin-libcss": "^1.1.1"
   }
 }
+
